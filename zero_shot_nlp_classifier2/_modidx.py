@@ -6,4 +6,5 @@ d = { 'settings': { 'branch': 'main',
                 'git_url': 'https://github.com/daveramseymusic/zero-shot-nlp-classifier2',
                 'lib_path': 'zero_shot_nlp_classifier2'},
   'syms': { 'zero_shot_nlp_classifier2.core': { 'zero_shot_nlp_classifier2.core.foo': ( 'core.html#foo',
-                                                                                        'zero_shot_nlp_classifier2/core.py')}}}
+                                                                                        'zero_shot_nlp_classifier2/core.py')},
+            'zero_shot_nlp_classifier2.zeroshot': {}}}
