@@ -7,4 +7,5 @@ d = { 'settings': { 'branch': 'main',
                 'lib_path': 'zero_shot_nlp_classifier2'},
   'syms': { 'zero_shot_nlp_classifier2.core': { 'zero_shot_nlp_classifier2.core.foo': ( 'core.html#foo',
                                                                                         'zero_shot_nlp_classifier2/core.py')},
-            'zero_shot_nlp_classifier2.zeroshot': {}}}
+            'zero_shot_nlp_classifier2.zeroshot': { 'zero_shot_nlp_classifier2.zeroshot.analyze_one': ( 'zero_shot_linkedin_test.html#analyze_one',
+                                                                                                        'zero_shot_nlp_classifier2/zeroshot.py')}}}
