@@ -7,10 +7,10 @@ __all__ = ['classifier', 'sequence', 'candidate_labels', 'path', 'df', 'analyze_
 classifier = pipeline("zero-shot-classification")
 
 # %% ../nbs/01_zero_shot_linkedin_test.ipynb 6
-sequence = "Who are you voting for in 2020?"
+sequence = "Who are you voting for in 2022?"
 candidate_labels = ["politics", "public health", "economics"]
 
-classifier(sequence, candidate_labels)
+print(classifier(sequence, candidate_labels))
 
 # %% ../nbs/01_zero_shot_linkedin_test.ipynb 7
 path = Path('..')
